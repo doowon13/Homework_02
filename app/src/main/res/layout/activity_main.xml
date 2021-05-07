@@ -23,6 +23,7 @@
         android:textSize="15dp" />
 
     <EditText
+        android:id="@+id/emailAdrs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -37,6 +38,7 @@
         android:textSize="15dp" />
 
     <EditText
+        android:id="@+id/passWrd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -44,11 +46,13 @@
         android:inputType="textPassword" />
 
     <TextView
+        android:id="@+id/resultTxt"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
 
     <Button
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인" />
